@@ -80,12 +80,19 @@ code_root/ckpt/exp_name/results
   └── real    # ground truth output
 ```
 
+Checkpoint models:
 
 | Method | Task | FID | KID | Download | 
 |:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 | [CEN](https://github.com/yikaiw/CEN) |Texture+Shade->RGB | 62.6 | 1.65 | - |
 | Ours | Texture+Shade->RGB | 45.5 | 1.00 | [Google Drive](https://drive.google.com/drive/folders/1vkcDv5bHKXZKxCg4dC7R56ts6nLLt6lh?usp=sharing)|
 
+
+## TODO
+
+3D object detection
+
+More checkpoints
 
 
 ## Citation
