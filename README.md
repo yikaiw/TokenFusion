@@ -92,11 +92,11 @@ code_root/ckpt/exp_name/results
 
 If you find our work useful for your research, please consider citing the following paper.
 ```
-@inproceedings{wang2020cen,
-  title={Deep Multimodal Fusion by Channel Exchanging},
-  author={Wang, Yikai and Huang, Wenbing and Sun, Fuchun and Xu, Tingyang and Rong, Yu and Huang, Junzhou},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
-  year={2020}
+@inproceedings{wang2022tokenfusion,
+  title={Multimodal Token Fusion for Vision Transformers},
+  author={Wang, Yikai and Chen, Xinghao and Cao, Lele and Huang, Wenbing and Sun, Fuchun and Wang, Yunhe},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2022}
 }
 ```
 
