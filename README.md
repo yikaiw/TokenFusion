@@ -10,10 +10,15 @@ This repository is a PyTorch implementation of "Multimodal Token Fusion for Visi
    <img src="./figs/framework.png" width="960">
 </div>
 
+Homogeneous predictions,
 <div align="center">
-   <img src="./figs/img2img.png" width="960">
+   <img src="./figs/homogeneous.png" width="720">
 </div>
 
+Heterogeneous predictions,
+<div align="center">
+   <img src="./figs/heterogeneous.png" width="720">
+</div>
 
 
 ## Datasets
