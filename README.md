@@ -6,6 +6,14 @@ By Yikai Wang, Xinghao Chen, Lele Cao, Wenbing Huang, Fuchun Sun, Yunhe Wang.
 
 This repository is a PyTorch implementation of "Multimodal Token Fusion for Vision Transformers", in CVPR 2022. 
 
+<div align="center">
+   <img src="./figs/framework.png" width="960">
+</div>
+
+<div align="center">
+   <img src="./figs/img2img.png" width="720">
+</div>
+
 
 
 ## Datasets
@@ -51,6 +59,8 @@ Checkpoint models, training logs, mask ratios and the **single-scale** performan
 |[CEN](https://github.com/yikaiw/CEN)| ResNet152 | 77.0 | 64.4 | 51.6 | [Google Drive](https://drive.google.com/drive/folders/1DGF6vHLDgBgLrdUNJOLYdoXCuEKbIuRs?usp=sharing)|
 |Ours| SegFormer-B3 | 78.7 | 67.5 | 54.8 | [Google Drive](https://drive.google.com/drive/folders/14fi8aABFYqGF7LYKHkiJazHA58OBW1AW?usp=sharing)|
 
+
+Mindspore implementation is available at: https://gitee.com/mindspore/models/tree/master/research/cv/TokenFusion
 
 ## Image-to-Image Translation
 
