@@ -11,7 +11,7 @@ This repository is a PyTorch implementation of "Multimodal Token Fusion for Visi
 </div>
 
 <div align="center">
-   <img src="./figs/img2img.png" width="720">
+   <img src="./figs/img2img.png" width="960">
 </div>
 
 
