@@ -46,6 +46,9 @@ First,
 ```
 cd semantic_segmentation
 ```
+
+Download the [segformer](https://github.com/NVlabs/SegFormer) pretrained model (pretrained on ImageNet) from [weights](https://drive.google.com/drive/folders/1b7bwrInTW4VLEm27YawHOAMSMikga2Ia), e.g., mit_b3.pth. Move this pretrained model to folder 'pretrained'.
+
 Training script for segmentation with RGB and Depth input, the default setting uses RefineNet (ResNet101),
 ```
 python main.py --backbone mit_b3 -c exp_name --lamda 1e-6 --gpu 0 1 2
