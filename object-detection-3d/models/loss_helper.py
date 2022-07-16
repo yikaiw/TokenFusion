@@ -364,13 +364,8 @@ def get_loss(end_points, epoch, config, num_decoder_layers,
     #target_box[0::2] *= 730
     #target_box[1::2] *= 530
     #print(img)#img = img.transpose(1,2)
-    if len(end_points['target_box2d'][0][:-zero_num])>0:# and len(os.listdir('img-pred')) < 50:
-        #torch.save(end_points['full_img'][0].cpu().detach(), 'img.pth')
-        idx = np.random.rand()
-        viz_obb2d(img, target_box,  targets[0]['labels'].cpu().detach().numpy(), 'img-label-pretrain', idx)
-        viz_obb2d(img, pred,  targets[0]['labels'].cpu().detach().numpy(), 'img-pred-pretrain', idx)
 
-    loss2d_alpha = 1 if epoch <= 120 else 0#1e-5
+    loss2d_alpha = 1 if epoch <= 120 else 0
     loss = loss * 10 + losses2d.to(loss.device) * loss2d_alpha
     end_points['loss'], end_points['iou'] = loss, iou2d.mean()
     return loss, end_points
